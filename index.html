@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aerospace Composites Qualification Readiness Checklist | Intec</title>
+<meta name="description" content="The 12-point readiness checklist aerospace engineers use before starting a composite qualification campaign. Built by Intec, an ISO 17025, NADCAP, AS9100 accredited aerospace testing and composite manufacturing lab in Everett, WA.">
+<meta property="og:title" content="Aerospace Composites Qualification Readiness Checklist | Intec">
+<meta property="og:description" content="The 12-point readiness checklist aerospace engineers use before a composite qualification campaign. Free download from Intec.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://cdn.prod.website-files.com/60de635a26916309f61cc3df/60e2a380cfd88462644a3183_intec-logo.png">
+<link rel="icon" type="image/png" href="https://cdn.prod.website-files.com/60de635a26916309f61cc3df/60e2a380cfd88462644a3183_intec-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --blue-dark: #293D94;
+  --blue-gradient: linear-gradient(266.19deg, #1D2187 0%, #1156B0 45.67%, #0E63BA 57.53%, #087DCE 77.86%, #1BA1E3 100%);
+  --orange-solid: #F59431;
+  --orange-gradient: linear-gradient(231.65deg, #F5AF01 0%, #EF9202 36.46%, #E66D03 67.71%, #E56603 100%);
+  --orange-gradient-hover: linear-gradient(231.65deg, #E56603 0%, #E66D03 36.46%, #EF9202 67.71%, #F5AF01 100%);
+  --text-dark: #293D94;
+  --text-body: #444;
+  --text-muted: #777;
+  --bg-light: #F6F8FB;
+  --bg-white: #FFFFFF;
+  --border-light: #E6EAF2;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: var(--text-body);
+  background: var(--bg-white);
+  line-height: 1.6;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: var(--text-dark);
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+p { margin-bottom: 16px; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.gradient-blue-text {
+  background: var(--blue-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.gradient-orange-text {
+  background: var(--orange-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* NAV */
+nav.site-nav {
+  position: sticky;
+  top: 0;
+  background: rgba(255, 255, 255, 0.97);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.04);
+  z-index: 100;
+}
+.nav-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.nav-logo img {
+  height: 56px;
+  width: auto;
+  display: block;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+.nav-phone {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--text-dark);
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+.nav-phone:hover { background: var(--orange-gradient); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+
+.btn {
+  display: inline-block;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 16px 40px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+.btn-primary {
+  background: var(--orange-solid);
+  color: #fff;
+  background-image: var(--orange-gradient);
+  background-size: 200% auto;
+  background-position: left center;
+}
+.btn-primary:hover {
+  background-position: right center;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(230, 109, 3, 0.3);
+}
+.btn-large {
+  padding: 21px 60px;
+  font-size: 20px;
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  padding: 80px 0 90px;
+  background-image:
+    linear-gradient(101.75deg, rgba(255, 255, 255, 0.92) 45%, rgba(255, 255, 255, 0.4) 100%),
+    url('https://cdn.prod.website-files.com/60de635a26916309f61cc3df/60e2a218c44479c2c5beb026_hero-image.jpg');
+  background-size: cover;
+  background-position: 60% 50%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+.hero-eyebrow {
+  display: inline-block;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--orange-solid);
+  background: var(--orange-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 18px;
+}
+.hero h1 {
+  font-size: clamp(40px, 5.5vw, 64px);
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 24px;
+  line-height: 1.05;
+}
+.hero h1 span.accent {
+  background: var(--orange-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero-subhead {
+  font-size: 19px;
+  color: #2E3850;
+  line-height: 1.6;
+  margin-bottom: 28px;
+  font-weight: 400;
+  max-width: 560px;
+}
+.hero-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 8px 0;
+}
+.hero-bullets li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #2E3850;
+  padding: 8px 0 8px 36px;
+  position: relative;
+  font-weight: 500;
+}
+.hero-bullets li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 12px;
+  width: 22px;
+  height: 22px;
+  background: var(--orange-gradient);
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0, 43% 62%);
+}
+
+/* Form card */
+.form-card {
+  background: #fff;
+  border-radius: 0;
+  padding: 44px 40px 36px;
+  box-shadow: 0 30px 60px rgba(29, 33, 135, 0.18), 0 0 0 1px rgba(29, 33, 135, 0.04);
+  border-top: 6px solid transparent;
+  border-image: var(--orange-gradient);
+  border-image-slice: 1;
+  position: relative;
+}
+.form-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 6px;
+  background: var(--orange-gradient);
+}
+.form-card h3 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 6px;
+  line-height: 1.15;
+}
+.form-card .form-sub {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 22px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+.form-group { margin-bottom: 14px; }
+.form-group label {
+  display: block;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--text-dark);
+  margin-bottom: 6px;
+}
+.form-group input, .form-group select {
+  width: 100%;
+  padding: 13px 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  border: 1.5px solid var(--border-light);
+  background: #fff;
+  color: var(--text-dark);
+  border-radius: 0;
+  transition: border-color 0.2s;
+}
+.form-group input:focus, .form-group select:focus {
+  outline: none;
+  border-color: var(--orange-solid);
+}
+.form-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.form-card .btn-primary {
+  width: 100%;
+  margin-top: 8px;
+  padding: 18px 40px;
+  font-size: 18px;
+}
+.form-privacy {
+  font-size: 12px;
+  color: var(--text-muted);
+  text-align: center;
+  margin-top: 14px;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* CREDIBILITY BAR */
+.cred-bar {
+  background: var(--bg-light);
+  padding: 42px 0;
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+}
+.cred-label {
+  text-align: center;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+.cred-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.cred-item {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--text-dark);
+  letter-spacing: 0.5px;
+  position: relative;
+  padding: 0 0 0 22px;
+}
+.cred-item::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 6px;
+  width: 14px;
+  height: 14px;
+  background: var(--orange-gradient);
+}
+
+/* SECTION BASE */
+.section {
+  padding: 96px 0;
+}
+.section-header {
+  text-align: center;
+  max-width: 820px;
+  margin: 0 auto 64px;
+}
+.section-eyebrow {
+  display: inline-block;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--orange-solid);
+  background: var(--orange-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+}
+.section-title {
+  font-size: clamp(34px, 4vw, 48px);
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 18px;
+  line-height: 1.1;
+}
+.section-subhead {
+  font-size: 18px;
+  color: var(--text-body);
+  line-height: 1.6;
+}
+
+/* PROBLEM CARDS */
+.problem-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+.problem-card {
+  background: #fff;
+  padding: 40px 32px;
+  border: 1px solid var(--border-light);
+  border-top: 4px solid transparent;
+  background-image: linear-gradient(#fff, #fff), var(--orange-gradient);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+.problem-num {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 52px;
+  background: var(--orange-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+  margin-bottom: 14px;
+}
+.problem-card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+.problem-card p {
+  font-size: 15px;
+  color: var(--text-body);
+  line-height: 1.65;
+}
+
+/* WHAT'S INSIDE */
+.inside-section {
+  background: var(--bg-light);
+}
+.inside-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 72px;
+  align-items: center;
+}
+.inside-list {
+  list-style: none;
+  padding: 0;
+  counter-reset: checklist;
+}
+.inside-list li {
+  counter-increment: checklist;
+  padding: 16px 0 16px 64px;
+  position: relative;
+  border-bottom: 1px solid var(--border-light);
+  font-size: 16px;
+  color: var(--text-body);
+  line-height: 1.55;
+}
+.inside-list li:last-child { border-bottom: none; }
+.inside-list li::before {
+  content: counter(checklist, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 15px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--text-dark);
+  background: var(--orange-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  min-width: 48px;
+}
+.inside-list li strong {
+  color: var(--text-dark);
+  font-weight: 700;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 2px;
+  letter-spacing: 0.3px;
+}
+
+.inside-visual {
+  position: relative;
+}
+.inside-visual img {
+  width: 100%;
+  display: block;
+  box-shadow: 0 30px 70px rgba(29, 33, 135, 0.25);
+}
+.inside-visual .visual-badge {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  background: var(--orange-gradient);
+  color: #fff;
+  padding: 18px 26px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  line-height: 1.1;
+  box-shadow: 0 10px 30px rgba(230, 109, 3, 0.35);
+}
+
+/* STATS */
+.stats-section {
+  background: var(--blue-gradient);
+  color: #fff;
+  padding: 88px 0;
+}
+.stats-section .section-title { color: #fff; }
+.stats-section .section-eyebrow { color: #fff; -webkit-text-fill-color: #fff; background: none; }
+.stats-section .section-subhead { color: rgba(255,255,255,0.9); }
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  margin-top: 16px;
+}
+.stat-block { text-align: center; padding: 0 8px; }
+.stat-number {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: clamp(44px, 5vw, 64px);
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 10px;
+  letter-spacing: -0.5px;
+}
+.stat-label {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.stat-desc {
+  font-size: 14px;
+  color: rgba(255,255,255,0.85);
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* AUTHORITY */
+.authority-section {
+  background: var(--bg-white);
+}
+.authority-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 72px;
+  align-items: center;
+}
+.authority-text h2 { margin-bottom: 22px; }
+.authority-text p {
+  font-size: 17px;
+  color: var(--text-body);
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+.authority-highlights {
+  list-style: none;
+  padding: 24px 0 0 0;
+  border-top: 1px solid var(--border-light);
+  margin-top: 28px;
+}
+.authority-highlights li {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  color: var(--text-dark);
+  padding: 10px 0 10px 30px;
+  position: relative;
+}
+.authority-highlights li::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 16px;
+  width: 18px; height: 3px;
+  background: var(--orange-gradient);
+}
+
+.facility-visual {
+  position: relative;
+  padding: 48px;
+  background: var(--bg-light);
+  border: 1px solid var(--border-light);
+}
+.facility-visual h3 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid;
+  border-image: var(--orange-gradient);
+  border-image-slice: 1;
+}
+.facility-list {
+  list-style: none;
+  padding: 0;
+}
+.facility-list li {
+  padding: 12px 0 12px 30px;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: var(--text-body);
+  line-height: 1.5;
+  border-bottom: 1px solid var(--border-light);
+}
+.facility-list li:last-child { border-bottom: none; }
+.facility-list li::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 18px;
+  width: 14px; height: 14px;
+  background: var(--orange-gradient);
+}
+.facility-list li strong {
+  color: var(--text-dark);
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 17px;
+  letter-spacing: 0.3px;
+}
+
+/* FINAL CTA */
+.final-cta {
+  background: var(--blue-gradient);
+  padding: 96px 0;
+  color: #fff;
+  text-align: center;
+}
+.final-cta h2 {
+  font-size: clamp(36px, 4.5vw, 52px);
+  color: #fff;
+  margin-bottom: 18px;
+  line-height: 1.1;
+}
+.final-cta p {
+  font-size: 19px;
+  color: rgba(255,255,255,0.92);
+  margin: 0 auto 40px;
+  max-width: 680px;
+  line-height: 1.6;
+}
+.final-form {
+  max-width: 560px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 40px 36px 30px;
+}
+.final-form .form-card-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+  text-align: center;
+}
+.final-form .form-privacy { color: var(--text-muted); }
+
+/* FOOTER */
+footer {
+  background: #111530;
+  color: #fff;
+  padding: 60px 0 30px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 48px;
+  margin-bottom: 40px;
+}
+.footer-brand img {
+  height: 42px;
+  width: auto;
+  margin-bottom: 18px;
+}
+.footer-brand p {
+  font-size: 14px;
+  color: rgba(255,255,255,0.7);
+  line-height: 1.6;
+  max-width: 420px;
+}
+.footer-col h4 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 18px;
+}
+.footer-col p, .footer-col a {
+  color: rgba(255,255,255,0.75);
+  font-size: 14px;
+  line-height: 1.75;
+  text-decoration: none;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer-col a:hover { color: #fff; }
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 24px;
+  text-align: center;
+  font-size: 13px;
+  color: rgba(255,255,255,0.55);
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* RESPONSIVE */
+@media (max-width: 980px) {
+  .hero-grid { grid-template-columns: 1fr; gap: 48px; }
+  .problem-grid { grid-template-columns: 1fr; gap: 20px; }
+  .inside-grid { grid-template-columns: 1fr; gap: 48px; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 40px; }
+  .authority-grid { grid-template-columns: 1fr; gap: 48px; }
+  .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+}
+
+@media (max-width: 640px) {
+  .nav-wrap { padding: 14px 20px; }
+  .nav-logo img { height: 44px; }
+  .nav-phone { font-size: 17px; }
+  .nav-right .btn { display: none; }
+  .container { padding: 0 20px; }
+  .hero { padding: 50px 0 60px; }
+  .section { padding: 64px 0; }
+  .final-cta { padding: 64px 0; }
+  .form-card, .final-form { padding: 30px 24px 26px; }
+  .form-row-2 { grid-template-columns: 1fr; gap: 14px; }
+  .cred-list { gap: 18px; }
+  .cred-item { font-size: 15px; }
+}
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-wrap">
+    <a href="https://www.intecaero.com" class="nav-logo">
+      <img src="https://cdn.prod.website-files.com/60de635a26916309f61cc3df/60e2a380cfd88462644a3183_intec-logo.png" alt="Integrated Technologies Inc (Intec)">
+    </a>
+    <div class="nav-right">
+      <a href="tel:4252930340" class="nav-phone">(425) 293-0340</a>
+      <a href="#get-checklist" class="btn btn-primary">Download the Checklist</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <div class="hero-eyebrow">For Materials Engineers &amp; Sourcing Leads</div>
+        <h1>The Aerospace Composites <span class="accent">Qualification Readiness Checklist</span></h1>
+        <p class="hero-subhead">Before you open an RFQ for a composite qualification campaign, run through the 12 checks aerospace engineers use to vet a testing lab. Built by Intec, an ISO 17025, NADCAP, AS9100 accredited lab and composite manufacturer in Everett, WA.</p>
+        <ul class="hero-bullets">
+          <li>12 vetting criteria every aerospace buyer should verify</li>
+          <li>Specimen prep, environmental preconditioning, NDT protocols</li>
+          <li>What AS9100, NADCAP, and ISO 17025 actually mean</li>
+          <li>Data delivery format red flags to watch for</li>
+        </ul>
+      </div>
+
+      <form class="form-card" id="get-checklist" action="#" method="post" onsubmit="event.preventDefault(); alert('Thanks. Your checklist is on the way. Look for an email from Intec in the next few minutes.');">
+        <h3>Get the free checklist</h3>
+        <p class="form-sub">Delivered to your inbox. No sales pitch. Keep it on file for your next qualification campaign.</p>
+
+        <div class="form-row-2">
+          <div class="form-group">
+            <label for="fname">First Name</label>
+            <input id="fname" name="fname" type="text" required>
+          </div>
+          <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input id="lname" name="lname" type="text" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Work Email</label>
+          <input id="email" name="email" type="email" placeholder="you@company.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="company">Company</label>
+          <input id="company" name="company" type="text" placeholder="Aerospace OEM / Prime / Tier 1" required>
+        </div>
+
+        <div class="form-group">
+          <label for="role">Your Role</label>
+          <select id="role" name="role" required>
+            <option value="">Select one</option>
+            <option>Materials Engineer</option>
+            <option>Composites Engineer</option>
+            <option>Qualification Engineer</option>
+            <option>Program Manager</option>
+            <option>Sourcing / Procurement</option>
+            <option>VP Engineering</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send Me the Checklist</button>
+        <p class="form-privacy">We respect your inbox. No spam, ever. Unsubscribe anytime.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="cred-bar">
+  <div class="container">
+    <div class="cred-label">Accredited to the standards your program requires</div>
+    <div class="cred-list">
+      <div class="cred-item">AS9100:2016 Rev D</div>
+      <div class="cred-item">ISO 9001:2015</div>
+      <div class="cred-item">ISO 17025</div>
+      <div class="cred-item">NADCAP AC7122</div>
+      <div class="cred-item">NADCAP AC7118</div>
+      <div class="cred-item">NADCAP AC7130</div>
+      <div class="cred-item">NADCAP AC7114</div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">The Problem</div>
+      <h2 class="section-title">Aerospace composite qualification is unforgiving. One missed step and the program slips a quarter.</h2>
+      <p class="section-subhead">The difference between a clean qualification campaign and a six-figure rework comes down to what you verify before the first specimen is cut. Most teams learn this the expensive way.</p>
+    </div>
+
+    <div class="problem-grid">
+      <div class="problem-card">
+        <div class="problem-num">01</div>
+        <h3>Wrong Lab, Wrong Accreditations</h3>
+        <p>You hand off to a lab that holds ISO 9001 but not ISO 17025 or NADCAP AC7122. Six weeks in you discover the data will not pass prime review. Every specimen ran, zero defensible data.</p>
+      </div>
+      <div class="problem-card">
+        <div class="problem-num">02</div>
+        <h3>Specimen Prep Drift</h3>
+        <p>Machining tolerances, bonding, environmental preconditioning, instrumentation. Small deltas between labs invalidate comparison against your baseline. The program schedule assumes data you cannot use.</p>
+      </div>
+      <div class="problem-card">
+        <div class="problem-num">03</div>
+        <h3>Data Delivery Surprise</h3>
+        <p>Testing finishes on time but the raw data arrives in a format your prime rejects on review. Now you are in rework mode with a launch date that is already public internally.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section inside-section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">What's Inside</div>
+      <h2 class="section-title">The 12 checks aerospace engineers run before opening an RFQ</h2>
+      <p class="section-subhead">A plain-language checklist you can take into any qualification conversation. Built from what Intec sees every week across OEM, prime, and Tier 1 programs.</p>
+    </div>
+
+    <div class="inside-grid">
+      <ol class="inside-list">
+        <li><strong>Accreditation Stack Verification</strong>Confirm the lab holds AS9100, ISO 17025, and the specific NADCAP codes your program requires (AC7118, AC7122, AC7130, AC7114).</li>
+        <li><strong>Specimen Prep Protocol</strong>Machining tolerance, bonding procedure, and fixture standardization across all specimens in the campaign.</li>
+        <li><strong>Environmental Preconditioning</strong>Humidity, thermal cycling, and UV exposure protocols matched to end-use environment.</li>
+        <li><strong>Load Capacity Envelope</strong>The static and fatigue range you actually need (5 lbf to 600,000 lbf capability matters for structural programs).</li>
+        <li><strong>Thermal Testing Range</strong>High-temperature composite parts require non-ambient capability. Verify cure temp ceiling (850F and above for BMI and polyimide).</li>
+        <li><strong>NDT Method Coverage</strong>Ultrasonic, impacting, and measurement/inspection protocols must match what your prime will accept.</li>
+        <li><strong>Data Delivery Format</strong>Raw data, processed data, and report format. Confirm compatibility with your prime's review tooling before test one.</li>
+        <li><strong>Chain of Custody Procedure</strong>How specimens are received, tracked, stored, and returned. Critical for audit-traceable programs.</li>
+        <li><strong>Program Management Scale</strong>Multi-year, multi-thousand-specimen campaigns need dedicated PM capacity. Ask explicitly.</li>
+        <li><strong>Manufacturing-Under-Roof Option</strong>Same lab that qualifies your parts can build them. Removes transfer risk and accelerates to production.</li>
+        <li><strong>Materials Breadth</strong>Epoxies, BMI, polycyanates, polyimides, thermoplastics, metal matrix. Your supplier should handle your whole roadmap.</li>
+        <li><strong>Capacity and Lead Time Reality Check</strong>Published capability and actual queued capacity are different. Always verify.</li>
+      </ol>
+
+      <div class="facility-visual">
+        <h3>Why engineers download this</h3>
+        <ul class="facility-list">
+          <li><strong>Audit-Traceable</strong>Every criterion maps to a specific NADCAP or AS9100 clause so your procurement team can defend it.</li>
+          <li><strong>Plain-Language</strong>Written for engineers and sourcing leads. No marketing fluff.</li>
+          <li><strong>Printable One-Pager</strong>Keep it at your desk for every new composite RFQ.</li>
+          <li><strong>Built By An Actual Lab</strong>Intec has been running qualification campaigns for commercial and defense aerospace since 1989.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stats-section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">The Factory Behind The Checklist</div>
+      <h2 class="section-title">Built by a working aerospace composites lab. Not a marketing department.</h2>
+    </div>
+    <div class="stats-grid">
+      <div class="stat-block">
+        <div class="stat-number">600K</div>
+        <div class="stat-label">lbf load capacity</div>
+        <div class="stat-desc">Static and fatigue mechanical testing from 5 lbf up to 600,000 lbf, including non-ambient temperatures.</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-number">850°F</div>
+        <div class="stat-label">cure temperature</div>
+        <div class="stat-desc">Autoclave, oven, and press curing to 850°F for BMI, polyimide, and high-temperature composite engine parts.</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-number">35K</div>
+        <div class="stat-label">sq ft facility</div>
+        <div class="stat-desc">Modern Everett, WA facility with ISO Class 9 clean room layup, 5-axis CNC, and autoclave bays under one roof.</div>
+      </div>
+      <div class="stat-block">
+        <div class="stat-number">35+</div>
+        <div class="stat-label">years in aerospace</div>
+        <div class="stat-desc">Since 1989. Trusted supplier of composite testing and manufacturing for commercial, defense, and space.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section authority-section">
+  <div class="container">
+    <div class="authority-grid">
+      <div class="authority-text">
+        <div class="section-eyebrow">About Intec</div>
+        <h2>A testing lab and a composite factory, under one roof, for the aerospace industry.</h2>
+        <p>Founded in 1989, Integrated Technologies, Inc. (Intec) operates as a trusted supplier of advanced materials testing services and composite manufacturing for the commercial and defense aerospace industry.</p>
+        <p>From our 35,000 sq ft facility in Everett, WA, we serve aerospace OEMs, defense primes, space customers, product and raw material manufacturers, and research organizations. Whether your program needs a few specimens over a few days or thousands of specimens spanning multiple years, Intec is set up for it.</p>
+        <ul class="authority-highlights">
+          <li>Composite testing: mechanical, thermal, physical, chemical, NDT</li>
+          <li>Composite manufacturing: hand layup, autoclave, press, 5-axis CNC</li>
+          <li>Materials: epoxy, BMI, polycyanate, polyimide, thermoplastic, metal matrix</li>
+          <li>Everett, WA — a short drive from the aerospace cluster you already know</li>
+        </ul>
+      </div>
+
+      <div class="facility-visual">
+        <h3>Capabilities at a glance</h3>
+        <ul class="facility-list">
+          <li><strong>Testing Services</strong>Test panel fabrication, specimen prep, thermal/physical/chemical testing, impacting and ultrasonic NDT, static and fatigue mechanical testing.</li>
+          <li><strong>Manufacturing</strong>Frozen storage, NC cutting and kitting, ISO Class 9 clean room hand layup, autoclave/oven/press cure, 5-axis trim and drill, post-processing.</li>
+          <li><strong>Programs</strong>From specimen-scale qualification through full-rate production. Program managers for high-load and large-scale campaigns.</li>
+          <li><strong>Accreditations</strong>AS9100:2016 Rev D, ISO 9001:2015, ISO 17025, NADCAP AC7122, AC7118, AC7130, AC7114.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta" id="final">
+  <div class="container">
+    <h2>Get the Qualification Readiness Checklist</h2>
+    <p>Before the next composite RFQ lands on your desk, have the 12 checks in hand. Free. Delivered instantly.</p>
+
+    <form class="final-form" action="#" method="post" onsubmit="event.preventDefault(); alert('Thanks. Your checklist is on the way. Look for an email from Intec in the next few minutes.');">
+      <div class="form-card-title">Download the checklist</div>
+      <div class="form-row-2">
+        <div class="form-group">
+          <label for="fname2">First Name</label>
+          <input id="fname2" name="fname" type="text" required>
+        </div>
+        <div class="form-group">
+          <label for="lname2">Last Name</label>
+          <input id="lname2" name="lname" type="text" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email2">Work Email</label>
+        <input id="email2" name="email" type="email" placeholder="you@company.com" required>
+      </div>
+      <div class="form-group">
+        <label for="company2">Company</label>
+        <input id="company2" name="company" type="text" placeholder="Aerospace OEM / Prime / Tier 1" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Me the Checklist</button>
+      <p class="form-privacy">We respect your inbox. No spam, ever. Unsubscribe anytime.</p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="https://cdn.prod.website-files.com/60de635a26916309f61cc3df/60e2b37197507edb2827d9cb_intec-logo-white.png" alt="Integrated Technologies Inc (Intec)">
+        <p>Since 1989, Integrated Technologies has invested in testing and production capabilities to provide exceptional service and reliability to commercial and defense aerospace customers.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>1910 Merrill Creek Pkwy<br>Everett, WA 98203</p>
+        <a href="tel:4252930340">(425) 293-0340</a>
+        <a href="mailto:Sales@intecaero.com">Sales@intecaero.com</a>
+      </div>
+      <div class="footer-col">
+        <h4>Accreditations</h4>
+        <p>AS9100:2016 Rev D<br>ISO 9001:2015<br>ISO 17025 Testing<br>NADCAP AC7122, AC7118, AC7130, AC7114</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      ©2026 Integrated Technologies, Inc. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
